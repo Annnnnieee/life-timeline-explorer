@@ -7,8 +7,8 @@ import type { CalendarEvent } from './types/event'
 
 function App() {
   // ideally default time would be today
-  const [startTime, setStartTime] = useState(new Date("2023-04-27T19:00:00Z"));
-  const [endTime, setEndTime] = useState(new Date("2026-04-27T19:00:00Z"));
+  const [startTime, setStartTime] = useState(new Date("2025-05-20T01:00:00Z"));
+  const [endTime, setEndTime] = useState(new Date("2026-05-20T10:00:00Z"));
   const [filteredEvents, setFilteredEvents] = useState<CalendarEvent[]>([]);
 
   useEffect( () => {
