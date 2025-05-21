@@ -57,7 +57,7 @@ src/
 
 * The events are all simply renderered to the dom. It could be better for performance to use a virtualized list if we expect more events to be shown, or if the dom nodes become more complicated to render. Performance could also be improved by memoizing the EventCards. The state management could be improved by consolidating it into a single object - this would reduce re-renders. 
 
-* Uses a simple directory structure that separates the view from data handling and business logic. Includes a service layer so that api interactions can be added more easily if needed. This layer acts as a centralized location for interacting with backend APIs, abstracting the away from the react components. At this scale though, this service layer is arguably overkill. 
+* Uses a simple directory structure that separates the view from data handling and business logic. Includes a service layer so that api interactions can be added more easily if needed. This layer acts as a centralized location for interacting with backend APIs, abstracting the logic away from the react components. At this scale though, this service layer is arguably overkill. 
 
 * Assumes the event data is properly formatted and safe to process without validation. I made this assumption because in a production environment, the data would have been validated on it's way into the system. 
 
