@@ -10,7 +10,7 @@ A React application for visualizing and exploring events across time, built with
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/username/life-timeline-explorer.git
+git clone https://github.com/Annnnnieee/life-timeline-explorer.git
 cd life-timeline-explorer
 ```
 
