@@ -61,7 +61,12 @@ src/
 
 * Assumes the event data is properly formatted and safe to process without validation. I made this assumption because in a production environment, the data would have been validated on it's way into the system. 
 
+* UI/UX - the flat list could of events could be greatly improved. As it is, it's difficult to get a sense of where in time you are as you scroll through the events. It's hard to get a sense of what or how much happened in any given period of time with this UI. That said, I chose a simple UI like this because this application does not have a well defined usecase. Some potential improvements that could be made anyway:
+  * sticky headings to group the events by month and year - so the user has an idea about where they are in time in the list.
+  * stacked year/month buttons on the side to reflect the timeline, so the user can quickly navigate to the desired period of time.
+  * color code by event type - so the user can glean the types of activities that their time is composed of.
+  * extra filters for the user to group events by type or any other relevant dimension - may help extract insights about how their time is spent
+
 Other improvements that could be considered
-* UI/UX improvements
 * telemetry
 * loading/error states/error boundaries
